@@ -14,14 +14,6 @@
 　　<!--请求参数绑定
 　　<a href="param/testParam?username= heihei&password= 123">请求参数绑定</a>
 -->
-<!--自定义类型转换器-->
-<!--<form action="param/saveUser" method="post">
-    用户生日：<input type="text" name="date"/><br/>
-
-    用户年龄：<input type="text" name="age"/><br/>
-    <input type="submit" value="提交"/><br/>
-</form>
--->
 <a href="param/testServlet">Servlet原生的API</a>
 </body>
 </html>

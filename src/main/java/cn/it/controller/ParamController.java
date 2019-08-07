@@ -52,6 +52,7 @@ public class ParamController {
 
     /**
      * 原生的servlet API获取
+     *
      * @return
      */
 
@@ -60,16 +61,13 @@ public class ParamController {
         System.out.println("执行了...");
         System.out.println(request);
 
-        HttpSession session=request.getSession();
+        HttpSession session = request.getSession();
         System.out.println(session);
 
         ServletContext servletContext = session.getServletContext();
         System.out.println(response);
         return "success";
     }
-
-
-
 
 
 }

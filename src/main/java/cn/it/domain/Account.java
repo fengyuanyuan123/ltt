@@ -3,7 +3,7 @@ package cn.it.domain;
 import java.io.Serializable;
 
 public class Account implements Serializable {
-    private String username ;
+    private String username;
     private User user;
 
     public String getUsername() {
@@ -38,11 +38,10 @@ public class Account implements Serializable {
         this.money = money;
     }
 
-    private  String  password;
+    private String password;
 
 
-
-    private  Double money;
+    private Double money;
 
 
     @Override
